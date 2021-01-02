@@ -1,0 +1,110 @@
+html,
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+.data,
+.data a {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: #00adb5;
+}
+
+.main {
+  background-color: #eeeeee;
+  padding: 10px 5px;
+}
+.data {
+  text-align: center;
+}
+button {
+  padding: 5px;
+  font-family: "Product Sans";
+  background-color: white;
+  font-weight: 700;
+  border: none;
+}
+.city-name,
+.main-des {
+  text-align: center;
+  padding: 0;
+  margin: 3px 0;
+}
+.main-des {
+  color: #222831;
+  font-weight: 700;
+}
+.icons-correction {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0;
+}
+.city-name {
+  color: #00adb5;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 370px) and (max-width: 550px) {
+  .icon-section {
+    top: 5px;
+  }
+
+  .data,
+  .data a {
+    font-size: 0.8rem;
+  }
+  .main-des {
+    font-size: 1.2rem;
+  }
+  .city-name {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  .data,
+  .data a {
+    font-size: 1rem;
+  }
+  .main-des,
+  .city-name {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  html,
+  body {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 10px 15px;
+  }
+  .windChangeToggle button,
+  .tempChangeToggle button {
+    font-size: 1.01rem;
+  }
+  .data,
+  .data a {
+    font-size: 0.9rem;
+  }
+  .main-des,
+  .city-name {
+    margin: 0px;
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 839px) and (max-width: 990px) {
+  .data,
+  .data a {
+    font-size: 0.6rem;
+  }
+  .windChangeToggle button,
+  .tempChangeToggle button {
+    font-size: 0.9rem;
+  }
+}

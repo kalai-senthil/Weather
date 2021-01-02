@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+section {
+  z-index: 55;
+  display: flex;
+  justify-content: space-between;
+}
+sup {
+  font-size: 0.4rem;
+  position: relative;
+  bottom: 4px;
+}
+.windChangeToggle button,
+.tempChangeToggle button {
+  cursor: pointer;
+}
+.windChangeToggle,
+.tempChangeToggle {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.4);
+}
+.tempChangeToggle button {
+  padding: 5px 10px;
+}
+.active {
+  color: white;
+  background-color: #00adb5 !important;
+}
+.heading {
+  padding: 10px;
+  border: 3px solid #eeeeee;
+}
+.current {
+  display: flex;
+  background-color: rgb(41, 46, 54);
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: inline;
+  color: white;
+  font-size: 1.2rem;
+}
+#info_icon {
+  margin: 0 5px;
+}
+@media screen and (min-width: 768px) {
+  .windChangeToggle button,
+  .tempChangeToggle button {
+    font-size: 1.01rem;
+  }
+}
+@media screen and (min-width: 839px) and (max-width: 990px) {
+  .windChangeToggle button,
+  .tempChangeToggle button {
+    font-size: 0.9rem;
+  }
+}

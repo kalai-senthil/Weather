@@ -1,0 +1,17 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+.icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke: #00adb5;
+}
+.icon-section svg {
+  width: 100%;
+}

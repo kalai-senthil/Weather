@@ -1,0 +1,39 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  background-color: #222831;
+}
+.details {
+  border: 3px solid #eeeeee;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+}
+@media screen and (min-width: 435px) and (max-width: 768px) {
+  .details {
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    font-size: 1.2rem;
+  }
+  .details {
+    gap: 45px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media screen and (min-width: 839px) and (max-width: 990px) {
+  .details {
+    gap: 45px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

@@ -1,0 +1,88 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.two-sec {
+  display: flex;
+  align-items: center;
+}
+.two-sec .icon {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon #pressure_icon {
+  width: 50%;
+}
+.icon #QualityIcon {
+  width: 50%;
+}
+.info {
+  color: white;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.value {
+  color: #00adb5;
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.icon svg {
+  width: 65%;
+}
+@media screen and (min-width: 435px) and (max-width: 768px) {
+  .info {
+    font-size: 1.4rem;
+  }
+  .value {
+    font-size: 1.1rem;
+  }
+  .icon #pressure_icon {
+    width: 60%;
+  }
+  .icon #QualityIcon {
+    width: 75%;
+  }
+  .icon svg {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  .info {
+    font-size: 1.2rem;
+  }
+  .value {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .info {
+    font-size: 1.2rem;
+  }
+  .value {
+    font-size: 1rem;
+  }
+  .icon #pressure_icon {
+    width: 80%;
+  }
+  .icon #QualityIcon {
+    width: 100%;
+  }
+  .icon svg {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 839px) and (max-width: 990px) {
+  .info {
+    font-size: 1.11rem;
+  }
+  .icon {
+    margin: 0 15px;
+  }
+}

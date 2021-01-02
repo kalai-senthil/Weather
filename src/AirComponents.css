@@ -1,0 +1,120 @@
+html,
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+.com-bg {
+  border: 1px solid #eeeeee;
+}
+.title,
+.infos {
+  color: white;
+}
+.title {
+  text-align: center;
+  background-color: rgb(41, 46, 54);
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+.atom-1 {
+  animation: rotate 1400ms linear infinite;
+}
+.atom-2 {
+  animation: rotate 1s linear infinite;
+}
+.atom-3 {
+  animation: rotate 1500ms linear infinite;
+}
+.atom-4 {
+  animation: rotate 2300ms linear infinite;
+}
+.atom-5 {
+  animation: rotate 3200ms linear infinite;
+}
+.atom-6 {
+  animation: rotate 4800ms linear infinite;
+}
+.atom-7 {
+  animation: rotate 1000ms linear infinite;
+}
+.atom-8 {
+  animation: rotate 40ms linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.values {
+  color: #00adb5;
+  margin: 5px 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.air-contains {
+  padding: 15px;
+  border: 3px solid #eeeeee;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.temp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.infos,
+.values {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.infos {
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 435px) and (max-width: 768px) {
+  .infos {
+    font-size: 1.4rem;
+  }
+  .values {
+    font-size: 1.1rem;
+  }
+  .air-contains {
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 768px) {
+  .infos {
+    font-size: 1.01rem;
+  }
+  .values {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .infos {
+    font-size: 0.92rem;
+  }
+  .air-contains {
+    gap: 45px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+@media screen and (min-width: 839px) and (max-width: 990px) {
+  .air-contains {
+    gap: 45px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .infos {
+    font-size: 1rem;
+  }
+}
