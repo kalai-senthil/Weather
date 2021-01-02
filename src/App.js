@@ -95,7 +95,7 @@ export class App extends Component {
         this.getCityNames = async()=>{
             try{
                 let cityList = [];
-            const res = await fetch("https://raw.githubusercontent.com/kalai-senthil/instant-weather/main/city.list.min.json");
+            const res = await fetch("https://raw.githubusercontent.com/kalai-senthil/live-weather-in-react/main/city.list.min.json");
             const result = await res.json();
             result.forEach(city =>{
                 const {name,id,country} = city;
