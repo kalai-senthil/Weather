@@ -1,7 +1,15 @@
+html,
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .data,
 .data a {
   font-size: 0.6rem;
-  font-family: "Product Sans Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   color: #00adb5;
 }
 
@@ -14,7 +22,8 @@
 }
 button {
   padding: 5px;
-  font-family: "Product Sans Bold", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   background-color: white;
   border: none;
 }
@@ -26,7 +35,8 @@ button {
 }
 .main-des {
   color: #222831;
-  font-family: "Product Sans Bold";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .icons-correction {
   display: flex;
@@ -36,7 +46,8 @@ button {
 }
 .city-name {
   color: #00adb5;
-  font-family: "Product Sans";
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 @media screen and (min-width: 370px) and (max-width: 550px) {

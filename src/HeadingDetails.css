@@ -1,3 +1,10 @@
+html,
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 section {
   z-index: 55;
   display: flex;
@@ -7,10 +14,13 @@ sup {
   font-size: 0.4rem;
   position: relative;
   bottom: 4px;
+  font-family: "Poppins", sans-serif;
 }
 .windChangeToggle button,
 .tempChangeToggle button {
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .windChangeToggle,
 .tempChangeToggle {
@@ -38,12 +48,15 @@ sup {
   display: flex;
   background-color: rgb(41, 46, 54);
   padding: 15px 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   justify-content: center;
   align-items: center;
 }
 h1 {
   display: inline;
   color: white;
+  text-decoration: underline;
   font-size: 1.2rem;
 }
 #info_icon {

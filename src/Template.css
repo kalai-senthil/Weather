@@ -1,3 +1,10 @@
+html,
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .two-sec {
   display: flex;
   align-items: center;
@@ -16,15 +23,15 @@
 }
 .info {
   color: white;
-  margin: 5px 0;
   font-size: 1.2rem;
-  font-family: "Product Sans Medium";
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 .value {
   color: #00adb5;
-  margin: 5px 0;
   font-size: 1rem;
-  font-family: "Product Sans";
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .icon svg {
   width: 65%;

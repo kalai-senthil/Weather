@@ -1,12 +1,7 @@
-@font-face {
-  font-family: "Product Sans Medium";
-  src: url("./ProductSansMedium.ttf") format(truetype);
-}
-@font-face {
-  font-family: "Product Sans Bold";
-  src: url("./ProductSansBold.ttf") format(truetype);
-}
-@font-face {
-  font-family: "Product Sans";
-  src: url("./ProductSans.ttf") format(truetype);
+html,
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
